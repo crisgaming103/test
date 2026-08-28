@@ -1,10 +1,12 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+
 # Bot configuration
-BOT_TOKEN= "8731822720:AAElFsuF_U0pHfpO10CwubU1FOWrj6JfOio"
-OWNER_ID= 6784382795
-ADMIN_IDS= 7634875658
+BOT_TOKEN = os.getenv("BOT_TOKEN", "").strip()
+
+OWNER_ID = 6784382795
+ADMIN_IDS = 7634875658
 
 import requests
 import time
