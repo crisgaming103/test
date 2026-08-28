@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-
+import os
 
 # Bot configuration
 BOT_TOKEN = os.getenv("BOT_TOKEN", "").strip()
